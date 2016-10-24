@@ -5,7 +5,7 @@
 @import 'partials/cssview';
 @import 'partials/popover';
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 
 $small-1: "(min-width: 100px) and (max-width: 499px)";
 $small-2: "(min-width: 500px) and (max-width: 699px)";
@@ -480,6 +480,9 @@ a{
 .fontsite-container, .colorpalette-container, .grid-container{
   width: 900px;
   line-height: 1.25;
+  p{
+    font-style: italic;
+  }
   h1{
     font-size: 25px;
     font-weight: 700;
