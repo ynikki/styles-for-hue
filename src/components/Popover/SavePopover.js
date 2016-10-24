@@ -6,7 +6,6 @@ class SavePopover extends Component {
     return (
       <Popover
         isActive={this.props.show}
-        animationOptions={{duration: 0.2, timing: 'ease-in'}}
       >
         <div
           className="modal-content"
